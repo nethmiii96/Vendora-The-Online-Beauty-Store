@@ -1,5 +1,6 @@
 /* Only unique styling for logout page */
 body {
+background: url('../images/background 2.jpg') no-repeat center center fixed;
     background-color: #FAE8ED;
     display: flex;
     justify-content: center;

@@ -1,5 +1,6 @@
 /* Body & Background */
 body {
+    background: url('../images/login-background.jpg') no-repeat center center fixed;
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #FAE8ED;
