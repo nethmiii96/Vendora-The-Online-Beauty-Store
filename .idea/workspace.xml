@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aabc6dc0-a376-43de-8bb4-d56aa51e60f5" name="Changes" comment="Frontend - Epic 01 - IV">
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/vendora/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/category.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/explore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/hero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/partnership.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/html/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/html/feedback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/html/foundation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/html/haircare.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/html/learn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/html/shop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/html/skincare.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/js/hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Vendora-The-Online-Beauty-Store.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VENDORA - The Online Web Store.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/inline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/images/background 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/images/eye_shadow_palette.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/images/glow_foundation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/images/login-background.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/images/rose_lipstick.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/CSS/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/CSS/forgot-password.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/CSS/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/CSS/logout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/CSS/signup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/CSS/update-password.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/CSS/verify-email.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/HTML/Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/HTML/Profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/HTML/Register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/HTML/admin-login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/HTML/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/HTML/forgot-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/HTML/front.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/html/PartnershipRegistration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/HTML/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/HTML/member-logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/HTML/update-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/HTML/verify-email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/background 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/cart-logo.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/login-background.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/p10.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/p6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/p7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/p8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/p9.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/product1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/product2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/product3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/product4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/product5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/images/vendora-Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/IT24101208/js/Validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/common/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/classes/static/css/styles.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="IT24101208 &lt;it24101208@my.sliit.lk&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IT24101208&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IT24101208/Vendora-The-Online-Beauty-Store.git&quot;,
+    &quot;accountId&quot;: &quot;c8b7bc0b-2b19-4736-afbe-2bc02e4750f8&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3AOMYxsjqgcNxjVjDI8Xs69kwNI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SLIIT University/Year 2 - Semester 2/IE2091 - IS Project/Assignment/Vendora-The-Online-Beauty-Store/project/src/main/resources/static/html&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SLIIT University\Year 2 - Semester 2\IE2091 - IS Project\Assignment\Vendora-The-Online-Beauty-Store\project\src\main\resources\static\html" />
+      <recent name="D:\SLIIT University\Year 2 - Semester 2\IE2091 - IS Project\Assignment\Vendora-The-Online-Beauty-Store\project\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SLIIT University\Year 2 - Semester 2\IE2091 - IS Project\Assignment\Vendora-The-Online-Beauty-Store\project\src\main\resources\templates\IT24101208\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Vendora-The-Online-Beauty-Store" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Vendora-The-Online-Beauty-Store" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aabc6dc0-a376-43de-8bb4-d56aa51e60f5" name="Changes" comment="" />
+      <created>1772013291786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772013291786</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial Project Push">
+      <option name="closed" value="true" />
+      <created>1772459376175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772459376175</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Frontend - Epic 01">
+      <option name="closed" value="true" />
+      <created>1772485065691</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772485065691</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Frontend - Epic 01 - II">
+      <option name="closed" value="true" />
+      <created>1772496136264</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772496136264</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Frontend - Epic 01 - III">
+      <option name="closed" value="true" />
+      <created>1772640632915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772640632915</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Frontend - Epic 01 - IV">
+      <option name="closed" value="true" />
+      <created>1772814522544</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1772814522544</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers>
+      <JIRA url="https://vendora2026ise.atlassian.net">
+        <option name="jiraVersion" value="1001.0.0-SNAPSHOT" />
+        <username>it24101208@my.sllit.lk</username>
+      </JIRA>
+    </servers>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Initial Project Push" />
+    <MESSAGE value="Frontend - Epic 01" />
+    <MESSAGE value="Frontend - Epic 01 - II" />
+    <MESSAGE value="Frontend - Epic 01 - III" />
+    <MESSAGE value="Frontend - Epic 01 - IV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend - Epic 01 - IV" />
+  </component>
+</project>
