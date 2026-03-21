@@ -1,5 +1,4 @@
 const video = document.getElementById("heroVideo");
-
 video.addEventListener("ended", function () {
 
     setTimeout(() => {

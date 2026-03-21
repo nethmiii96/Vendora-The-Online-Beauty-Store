@@ -1,0 +1,129 @@
+/* Container & Grids*/
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+{
+    box-sizing: border-box;
+}
+
+/* Form Container */
+.form-container {
+    background-image: url('../images/b2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* optional: remove if you want it to scroll */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;  /* optional: limit form width */
+    margin: 0 auto;    /* center the form */
+}
+
+/* Grid System */
+.category-grid,
+.partner-grid,
+.product-grid,
+.routine-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#feedbackGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Section Alignment */
+.about-section,
+.beauty-promise-section,
+.mission-section,
+.why-choose-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Shift section titles 1.5 inches to the right */
+.section-title {
+    margin-left: 1.5in; /* 1.5 inches from the left */
+    margin-top: 30px;
+    margin-bottom: 10px; /* small gap between title and content */
+    font-size: 28px;     /* optional: adjust size if needed */
+    font-weight: 600;    /* optional */
+    padding: 60px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    /* Container padding adjustment */
+    .container {
+        padding: 30px 15px;  /* smaller padding for mobile */
+    }
+
+    /* Feedback */
+    .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+@media (max-width: 900px) {
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
+}
+
+    /* Grids stack vertically on mobile */
+    .category-grid,
+    .partner-grid,
+    .product-grid,
+    .routine-grid {
+        display: grid;
+        grid-template-columns: 1fr;  /* single column */
+        gap: 20px;                  /* consistent spacing */
+    }
+
+    /* Section images full width and responsive */
+    .about-section img,
+    .mission-section img,
+    .why-choose-section img,
+    .beauty-promise-section img,
+    .home-bg img,
+    .form-container img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* Form container adjustments for mobile */
+    .form-container {
+        padding: 20px;
+        background-attachment: scroll; /* fixed backgrounds can be buggy on mobile */
+        border-radius: 8px;
+    }
+
+    /* Reduce font size slightly on mobile */
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}

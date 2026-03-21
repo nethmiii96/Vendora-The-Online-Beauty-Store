@@ -1,114 +1,162 @@
-.footer{
-    background:#1A1A1A;
-    color:white;
-    padding:50px 80px;
+/* Footer Styles */
+
+/* Bottom Section */
+.footer-bottom {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cccccc;
 }
 
-.footer-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:40px;
+.footer-bottom button {
+    background: none;
+    border: none;
+    color: var(--brand-color);
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 5px;
 }
 
-.footer h4{
-    margin-bottom:15px;
-    color:#FFF36E;
+.footer-bottom button:hover {
+    text-decoration: underline;
 }
 
-.footer a{
-    color:#ccc;
-    display:block;
-    margin-bottom:8px;
+/* Grid Layout */
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
 }
 
-.footer a:hover{
-    color:white;
+/* Links */
+.footer a {
+    color: #cccccc;
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: color 0.2s ease;
 }
 
-.footer-bottom{
-    text-align:center;
-    margin-top:40px;
-    font-size:14px;
+.footer a:hover {
+    color: #ffffff;
 }
 
-.footer-subscribe p{
-    font-size:14px;
-    margin-bottom:15px;
-    color:#ccc;
+/* Main Container */
+.footer {
+    background: #1A1A1A;
+    color: #ffffff;
+    padding: 50px 60px;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    z-index: 1;
 }
 
-/* INPUT BOXES */
-.subscribe-input{
-    display:flex;
-    margin-bottom:10px;
+/* Section Titles */
+.footer h4 {
+    margin-bottom: 15px;
+    color: #FFF36E;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
 
-.subscribe-input input{
-    flex:1;
-    padding:10px;
-    border:none;
-    outline:none;
-    background:#ddd;
-    font-size:14px;
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
 }
 
-.subscribe-input select{
-    padding:10px;
-    border:none;
-    background:#ddd;
-    outline:none;
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #333333;
+    color: #ffffff;
+    font-size: 16px;
+    transition: background 0.2s, transform 0.2s;
 }
 
-.subscribe-input button{
-    background:#333;
-    color:white;
-    border:none;
-    padding:10px 14px;
-    cursor:pointer;
+.social-icons a:hover {
+    background: var(--brand-color);
+    transform: scale(1.1);
 }
 
-.subscribe-input button:hover{
-    background:#555;
+/* Subscribe Inputs */
+.subscribe-input {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
-
-/* SOCIAL ICONS */
-.social-icons{
-    margin:15px 0;
+.subscribe-input button {
+    background: var(--brand-color);
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
 }
 
-.social-icons a{
-    display:inline-block;
-    margin-right:12px;
-    font-size:18px;
-    color:#ccc;
+.subscribe-input button:hover {
+    opacity: 0.9;
 }
 
-.social-icons a:hover{
-    color:white;
+.subscribe-input input {
+    flex: 1;
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+    background: #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
-
-/* CURRENCY SELECTOR */
-.currency{
-    display:flex;
-    gap:6px;
-    margin-top:10px;
+/* Subscribe Section */
+.footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.currency button{
-    padding:6px 10px;
-    border:1px solid #999;
-    background:transparent;
-    color:white;
-    font-size:12px;
-    cursor:pointer;
+.footer-subscribe p {
+    font-size: 14px;
+    color: #cccccc;
 }
 
-.currency button:hover{
-    background:#333;
-}
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 25px;
+    }
 
-.currency .active{
-    border:2px solid red;
+    .footer-bottom {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .subscribe-input {
+        flex-direction: column;
+    }
 }

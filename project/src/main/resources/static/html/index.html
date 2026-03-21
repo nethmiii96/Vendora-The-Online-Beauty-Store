@@ -6,60 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vendora | The Online Beauty Store</title>
 
-    <!-- CSS FILES -->
-    <link rel="stylesheet" href="../css/template.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/hero.css">
-    <link rel="stylesheet" href="../css/category.css">
-    <link rel="stylesheet" href="../css/product.css">
-    <link rel="stylesheet" href="../css/explore.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/responsive.css">
-    <link rel="stylesheet" href="../css/partnership.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/layout.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body class="home-bg">
-<!-- NAVBAR -->
-<nav class="navbar">
-    <a href="index.html">Home</a>
-    <a href="shop.html">Shop</a>
-    <a href="about.html">About</a>
-    <a href="learn.html">Learn</a>
-    <a href="login.html">Login</a>
-    <a href="Signup.html">Signup</a>
-</nav>
 
-<!-- HEADER -->
-<header class="header">
+<header class="header-grid">
     <div class="logo">
-        <img src="../images/vendora-Logo.png" alt="Vendora Logo">
+        <img src="../images/Vendora.png" alt="Vendora Logo">
     </div>
 
-    <div class="header-right">
+    <nav class="navbar">
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="../../templates/IT24101208/html/login.html">Login</a>
+        <a href="../../templates/IT24101208/html/signup.html">Sign Up</a>
+        <a href="../../templates/IT24101208/html/profile.html"> 👤 </a>
+
+        <div class="profile-menu">
+            <img id="navProfileImg" src="../../../resources/Profile_Pictures/PP1.jpg " alt="Profile">
+
+            <div id="profileDropdown" class="dropdown hidden">
+                <p id="navUserName"></p>
+                <button id="goProfile">My Profile</button>
+                <button id="logoutBtn">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header-search">
         <input type="text" placeholder="Search products..." class="search-input">
-        <div class="icon-btn">🛒 👤</div>
+        <div class="icon-btn"><i class="fa-solid fa-cart-shopping"></i></div>
     </div>
 </header>
 
-<!-- Banner & Natural Beauty Products -->
 <section class="hero">
     <video id="heroVideo" autoplay muted playsinline>
         <source src="../images/Banner.mp4" type="video/mp4">
     </video>
-
     <div class="hero-content">
-        <h1>Natural Beauty Products</h1>
+        <h1>Discover Natural Beauty</h1>
         <p>Discover clean skincare and cosmetics</p>
         <a href="shop.html" class="btn-primary">Shop Now</a>
     </div>
 </section>
-
 <script src="../js/hero.js"></script>
 
 <!-- FEATURED PRODUCTS -->
 <section class="products">
+    <div class="container">
     <h2 class="section-title">Featured Products</h2>
     <div class="product-grid">
         <div class="product-card">
@@ -68,21 +70,18 @@
             <div class="product-price">Rs. 1,600</div>
             <a href="shop.html" class="btn-primary">Add to Cart</a>
         </div>
-
         <div class="product-card">
             <img src="../images/sp2.webp" alt="Serum">
             <div class="product-name">ESPA - Optimal Skin Pro Serum</div>
             <div class="product-price">Rs. 1,500</div>
             <a href="shop.html" class="btn-primary">Add to Cart</a>
         </div>
-
         <div class="product-card">
             <img src="../images/sp3.avif" alt="Men Deserve">
             <div class="product-name">Men Deserve Beauty Pack</div>
             <div class="product-price">Rs. 3,850</div>
             <a href="shop.html" class="btn-primary">Add to Cart</a>
         </div>
-
         <div class="product-card">
             <img src="../images/sp4.jpg" alt="Serum">
             <div class="product-name">Beauty of Joeson - Deep Serum</div>
@@ -90,66 +89,72 @@
             <a href="shop.html" class="btn-primary">Add to Cart</a>
         </div>
     </div>
-</section>
-
-<section class="explore">
-
-    <!-- Don't know where to start? -->
-    <h2 class="section-title">Don't know where to start?</h2>
-    <div class="explore-grid grid-3">
-        <div class="explore-card">
-            <img src="../images/skincare.jpg" alt="Skincare">
-            <div class="explore-content">
-                <h3>Find my personal Skincare Routine</h3>
-                <p>Discover the perfect skincare routine for your skin type.</p>
-                <a href="skincare.html">Get Started</a>
-            </div>
-        </div>
-        <div class="explore-card">
-            <img src="../images/makeup.jpg" alt="Foundation">
-            <div class="explore-content">
-                <h3>Find my personal Foundation</h3>
-                <p>Discover the perfect foundation for your skin tone.</p>
-                <a href="foundation.html">Get Started</a>
-            </div>
-        </div>
-        <div class="explore-card">
-            <img src="../images/haircare.webp" alt="Haircare">
-            <div class="explore-content">
-                <h3>Find my personal Haircare</h3>
-                <p>Discover tips and products for healthy, beautiful hair.</p>
-                <a href="haircare.html">Get Started</a>
-            </div>
-        </div>
     </div>
 </section>
 
-<!-- Join Our Supplier & Delivery Network -->
-<section class="explore">
-    <h2 class="section-title">Join Our Supplier & Delivery Network</h2>
-    <div class="explore-grid grid-3">
-        <div class="explore-card">
+<!-- ROUTINE SECTION -->
+    <section class="routine-section">
+        <div class="container">
+            <h2 class="routine-title">Don't know where to start?</h2>
+            <div class="routine-grid">
+                <div class="routine-card">
+                    <img src="../images/skincare.jpg" alt="Skincare">
+                    <div class="routine-content">
+                        <h3>Find my personal Skincare Routine</h3>
+                        <p>Discover the perfect skincare routine for your skin type.</p>
+                        <a href="routine.html?category=skincare">Get Started</a>
+                    </div>
+                </div>
+                <div class="routine-card">
+                    <br>
+                    <img src="../images/bodycare.jpg" alt="Bodycare">
+                    <div class="routine-content">
+                        <h3>Find my personal Bodycare</h3>
+                        <p>Discover the perfect bodycare routine for your skin type.</p>
+                        <a href="routine.html?category=bodycare">Get Started</a>
+                    </div>
+                </div>
+                <div class="routine-card">
+                    <img src="../images/haircare.webp" alt="Haircare">
+                    <div class="routine-content">
+                        <h3>Find my personal Haircare</h3>
+                        <p>Discover tips and products for healthy, beautiful hair.</p><br>
+                        <a href="routine.html?category=haircare">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Supplier & Delivery Network -->
+<section class="partner">
+    <div class="container">
+    <h2 class="partner-title">Join Our Supplier & Delivery Network</h2>
+    <div class="partner-grid grid-3">
+        <div class="partner-card">
             <img src="../images/supplier.jpg" alt="Supplier">
-            <div class="explore-content">
+            <div class="partner-content">
                 <h3>I am a Supplier</h3>
-                <a href="PartnershipRegistration.html">Supplier</a>
+                <a href="supplier.html">Join Now</a>
             </div>
         </div>
-        <div class="explore-card">
+        <div class="partner-card">
             <img src="../images/delivery.webp" alt="Delivery">
-            <div class="explore-content">
+            <div class="partner-content">
                 <h3>I am a Delivery Person</h3>
-                <a href="PartnershipRegistration.html">Delivery</a>
+                <a href="delivery.html">Join Now</a>
             </div>
         </div>
     </div>
+    </div>
 </section>
 
-<!-- What people think about us -->
+<!-- FEEDBACK / CATEGORY -->
 <section class="category-section">
-    <h2 class="section-title">What people think about us...</h2>
-    <div class="category-grid">
-        <a href="feedback.html">See More</a>
+    <div class="container">
+        <h2 class="section-title">What people think about us...</h2>
+        <div class="feedback-grid" id="homeFeedbackGrid"></div>
+        <a href="feedback.html" class="btn">See More</a>
     </div>
 </section>
 
@@ -157,37 +162,34 @@
 <footer class="footer">
     <div class="footer-grid">
 
-        <!-- SUBSCRIBE COLUMN -->
+        <!-- SUBSCRIBE -->
         <div class="footer-subscribe">
             <h4>SUBSCRIBE</h4>
-           <div>
-               <P>Get blog updates and exclusive discounts.</P>
-           </div>
+            <p>Get blog updates and exclusive discounts.</p>
 
             <!-- Email -->
             <div class="subscribe-input">
-                <input type="email" placeholder="Enter your email">
+                <label for="subscribeEmail" class="visually-hidden">Email for subscription</label>
+                <input type="email" id="subscribeEmail" placeholder="Enter your email">
                 <button>➤</button>
             </div>
 
-            <!-- SMS -->
+            <!-- Phone -->
             <div class="subscribe-input">
-                <input type="tel" placeholder="Enter your phone number">
+                <label for="subscribePhone" class="visually-hidden">Phone number for subscription</label>
+                <input type="tel" id="subscribePhone" placeholder="Enter your phone number">
             </div>
 
             <div>
                 <button>SUBSCRIBE</button>
             </div>
 
+            <!-- SOCIAL ICONS -->
             <div class="social-icons">
-                <a href="https://facebook.com" target=" ">
-                    <i class="fa-brands fa-facebook-f"></i> </a>
-                <a href="https://youtube.com" target=" ">
-                    <i class="fa-brands fa-youtube"></i>    </a>
-                <a href="https://instagram.com" target=" ">
-                    <i class="fa-brands fa-instagram"></i>  </a>
-                <a href="https://tiktok.com" target=" ">
-                    <i class="fa-brands fa-tiktok"></i>     </a>
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
             </div>
         </div>
 
@@ -207,7 +209,7 @@
             <a href="about.html">Support</a>
         </div>
 
-        <!-- CUSTOMER -->
+        <!-- CUSTOMER SERVICE -->
         <div>
             <h4>Customer Service</h4>
             <a href="#">My Account</a>
@@ -217,8 +219,12 @@
     </div>
 
     <div class="footer-bottom">
-        © 2026 Vendora | The Online Beauty Store
+        <p>© 2026 Vendora | The Online Beauty Store</p>
+        <p>Terms & Conditions | Privacy Policy | Cookie Policy | Do Not Sell My Personal Information | Vendora</p>
+        <p>If you are having problems using this website, please <button>CLICK HERE</button> for assistance.</p>
     </div>
 </footer>
+
+<script src="../js/main.js"></script>
 </body>
 </html>

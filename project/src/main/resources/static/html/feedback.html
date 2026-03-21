@@ -1,10 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Reveiw & Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendora | Feedback</title>
+
+    <!-- Base CSS -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!-- Feedback Specific CSS (we will create next) -->
+    <link rel="stylesheet" href="../css/feedback.css">
 </head>
+
 <body>
 
+<!-- HEADER -->
+<header>
+    <h2>Vendora Feedback</h2>
+</header>
+
+<!-- FILTER BUTTONS -->
+<section class="container">
+    <div class="feedback-filters">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="customer">Customer</button>
+        <button data-filter="supplier">Supplier</button>
+        <button data-filter="delivery">Delivery</button>
+    </div>
+</section>
+
+<!-- MAIN LAYOUT -->
+<section class="container feedback-layout">
+
+    <!-- LEFT SIDE (Feedback Display) -->
+    <div class="feedback-display">
+
+        <div id="feedbackGrid" class="grid-3">
+            <!-- JS will inject cards here -->
+        </div>
+
+    </div>
+
+    <!-- RIGHT SIDE (Slide Form Panel) -->
+    <div id="feedbackPanel" class="feedback-panel">
+
+        <form id="feedbackForm" class="form-card">
+
+            <h3>Give Feedback ♥</h3>
+
+            <p id="loggedUser">Logged in as: Guest</p>
+
+            <!-- Rating -->
+            <label for="rating">Rating</label>
+            <select id="rating" required>
+                <option value="">Select Rating</option>
+                <option value="5">★★★★★</option>
+                <option value="4">★★★★☆</option>
+                <option value="3">★★★☆☆</option>
+                <option value="2">★★☆☆☆</option>
+                <option value="1">★☆☆☆☆</option>
+            </select>
+
+            <!-- Message -->
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required></textarea>
+
+            <!-- Buttons -->
+            <div class="form-actions">
+                <button type="submit" class="btn-primary">Submit</button>
+                <button type="button" id="cancelBtn" class="btn-cancel">Cancel</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- FLOAT BUTTON (Open Form) -->
+<button id="openPanelBtn" class="floating-btn">+</button>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Vendora</p>
+</footer>
+
+<!-- JS -->
+<script src="../js/feedback.js"></script>
+
 </body>
+
 </html>
